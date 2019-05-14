@@ -22,7 +22,7 @@ public class ImageToBase64Package implements ReactPackage {
     return modules;
   }
 
-  @Override
+  // @Override commented for react native epaisa
   public List<Class<? extends JavaScriptModule>> createJSModules() {
     return Collections.emptyList();
   }
